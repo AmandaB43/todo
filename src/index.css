@@ -20,7 +20,7 @@ form {
 }
 #h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #422ba8;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -56,6 +56,9 @@ select {
   border-radius: 8px;
   cursor: pointer;
 }
+
+/*navbar css*/
+
 .navbar {
   padding: 20px;
   display: flex;
@@ -69,12 +72,60 @@ select {
 }
 .navbar .links {
   margin-left: auto;
+  display: flex;
+  padding: 35px;
 }
 .navbar a {
+
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
 }
 .navbar a:hover {
+  color: #ec26d2;
+}
+
+/*home css*/
+
+.home h1{
   color: #422ba8;
+  text-align: center;
+}
+.mission h2{
+  padding: 20px;
+  margin-top: 50px;
+  color:#422ba8;
+  text-align: center;
+}
+.mission p{
+  text-align: center;
+  padding: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 20px;
+}
+.start h2{
+  padding: 20px;
+  margin-top: 50px;
+  color:#422ba8;
+  text-align: center;
+}
+.start p{
+  text-align: center;
+  padding: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 20px;
+}
+.home button{
+  display: flex;
+  align-content: center;
+  margin-top: 70px;
+  margin-left: 700px;
+  background: #422ba8;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }

@@ -10,7 +10,7 @@ function Navbar() {
                 <br></br>
                 <a href="/create">Create Task</a>
                 <br></br>
-                <a href='/account'>Your Account</a>
+                <a href='/register'>Create Account</a>
                 <br></br>
         </div>
     </nav>

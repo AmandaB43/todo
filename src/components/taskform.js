@@ -33,10 +33,10 @@ const Taskform = () => {
                     value={type}
                     onChange={(e) => setType(e.target.value)}
                 >
-                    <option value="Work"></option>
-                    <option value="Chores"></option>
-                    <option value="Urgent"></option>
-                    <option value="Personal"></option>
+                    <option value="Work">Work</option>
+                    <option value="Chores">Chores</option>
+                    <option value="Urgent">Urgent</option>
+                    <option value="Personal">Goals</option>
                 </select>
                 <button id="button">Add Task</button>
             </form>
