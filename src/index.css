@@ -8,7 +8,7 @@
 }
 
 
-/* form css  */
+/* taskform css  */
 form {
   max-width: 400px;
   margin: 0 auto;
@@ -89,7 +89,6 @@ select {
 }
 
 /*home css*/
-
 .home h1{
   color: #422ba8;
   text-align: center;
@@ -121,14 +120,60 @@ select {
   font-size: 20px;
 }
 .home button{
+  margin-left: 10px;
   display: flex;
-  align-content: center;
-  margin-top: 70px;
-  margin-left: 700px;
+  align-items: center;
   background: #422ba8;
   color: #fff;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+.buttons{
+  display: flex;
+  margin-left: 705px;
+  align-items: center;
+}
+/* register css */
+
+.register h1{
+  text-align: center;
+  padding: 30px;
+  color: #422ba8;
+}
+.register button{
+  background: #422ba8;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/*login css*/
+.login h1{
+  text-align: center;
+  padding: 30px;
+  color: #422ba8;
+}
+.login button{
+  background: #422ba8;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* profile css */
+.profilepage h1{
+  text-align: center;
+  padding: 30px;
+  color: #422ba8;
+}
+.profilepage h2{
+  text-align: center;
+  padding: 30px;
+  color: #422ba8;
 }
